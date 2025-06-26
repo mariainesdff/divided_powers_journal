@@ -268,8 +268,6 @@ variable {R : Type*} [CommSemiring R] (I : Ideal R) [DecidablePred (fun x ↦ x 
 
 variable [Algebra ℚ R]
 
---variable (I)
-
 /-- If `I` is an ideal in a `ℚ`-algebra `A`, then `I` admits a unique divided power structure,
   given by `dpow n x = x ^ n / n!`. -/
 noncomputable def dividedPowers : DividedPowers I where
